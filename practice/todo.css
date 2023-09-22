@@ -1,0 +1,41 @@
+body {
+  margin: 0px;
+  padding: 0px;
+  /* background-color: #0f044c; */
+}
+
+h1 {
+  font-size: 50px;
+}
+
+.container {
+  text-align: center;
+}
+.todo-container {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  text-align: center;
+  width: 500px;
+  margin: 0 auto;
+  /* background-color: #fff; */
+  transform: translate(-50%, -50%);
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+.todos li {
+  list-style-type: none;
+  margin: 12px auto;
+  text-align: center;
+}
+
+form .add-todo {
+  margin: 20px auto;
+  height: 25px;
+  width: 200px;
+  border-radius: 30px;
+}
+
+form .add-todo:focus {
+  outline: none;
+}

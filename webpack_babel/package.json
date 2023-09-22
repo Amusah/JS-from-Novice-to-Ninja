@@ -1,0 +1,23 @@
+{
+  "name": "webpack_babel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "node_modules/.bin/webpack --mode production",
+    "serve": "webpack-dev-server --mode development"
+  },
+  "author": "henry",
+  "license": "ISC",
+  "devDependencies": {
+    "@babel/cli": "^7.14.8",
+    "@babel/core": "^7.15.0",
+    "@babel/preset-env": "^7.15.0",
+    "webpack": "^5.51.1",
+    "webpack-cli": "^4.8.0"
+  },
+  "dependencies": {
+    "babel-loader": "^8.2.2",
+    "webpack-dev-server": "^4.1.0"
+  }
+}

@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+   
+    <link rel="stylesheet" href="App.css">
+    
+  <title>Whether App</title>
+</head>
+<body>
+    <div class="container my-5 mx-auto">
+        <h1 class="text-muted text-center my-4">Weather</h1>
+        <form class="change-location my-4 text-center text-muted">
+            <label for="city">Enter a location for weather information</label>
+            <div style="display: flex;">
+                <input class="form-control p-4" type="text" name="city" autocomplete="off">
+                <select class="countrySelect selectpicker countrypicker" data-flag="true"></select>
+            </div>
+        </form>
+
+        <div class="card shadow-lg rounded d-none">
+            <img src="https://via.placeholder.com/400x300" class="time card-image-top">
+            <div class="icon bg-light mx-auto text-center">
+                <img src="" alt="">
+            </div>
+            <div class="text-muted text-uppercase text-center details">
+                <h5 class="my-3">City name</h5>
+                <div class="my-3">Weather condition</div>
+                <div class="display-4 my-4">
+                    <span>temp</span>
+                    <span>&deg;C</span>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="//unpkg.com/jquery@3.4.1/dist/jquery.min.js"></script> 
+    <script src="//unpkg.com/bootstrap@3.3.7/dist/js/bootstrap.min.js"></script> 
+    <script src="//unpkg.com/bootstrap-select@1.12.4/dist/js/bootstrap-select.min.js"></script> 
+    <script src="//unpkg.com/bootstrap-select-country@4.0.0/dist/js/bootstrap-select-country.min.js"></script> 
+    <script>
+        $('.countrypicker').countrypicker();
+      </script> 
+    <script src="scripts/App.js"></script>
+    <script src="scripts/forecast.js"></script>
+</body>
+</html>

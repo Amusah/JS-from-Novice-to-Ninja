@@ -1,0 +1,7 @@
+Todo app/.vscode
+UI_library_project/node_modules
+UI_library_project/package-lock.json
+UI_library_project/.gitignore
+
+webpack_babel/node_modules
+webpack_babel/package-lock.json

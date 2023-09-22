@@ -1,0 +1,17 @@
+body {
+  background: #eeedec;
+  letter-spacing: 0.2em;
+  font-size: 1em;
+}
+.container {
+  max-width: 400px;
+}
+.errMsg {
+  color: red;
+}
+.icon {
+  position: relative;
+  bottom: 20px;
+  border-radius: 50%;
+  width: 100px;
+}

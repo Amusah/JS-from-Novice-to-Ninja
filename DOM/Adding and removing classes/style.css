@@ -1,0 +1,23 @@
+.error {
+  padding: 10px1;
+  color: crimson;
+  border: 1px dotted crimson;
+  width: 500px;
+}
+
+.success {
+  padding: 10px11;
+  color: limegreen;
+  border: 1px dotted limegreen;
+  width: 500px;
+}
+
+.err {
+  color: crimson;
+  border: 1px solid crimson;
+}
+
+.suc {
+  color: limegreen;
+  border: 1px solid limegreen;
+}
